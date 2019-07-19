@@ -1,0 +1,45 @@
+body {
+    background: lightskyblue;
+    font-family: 'PT Serif', serif;
+    color: midnightblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 1rem;
+    padding: 0 1rem;
+}
+h1 {
+    text-align: center;
+    grid-column: 1 / span 2;
+}
+h2 {
+    margin-top: 0;
+    color: mintcream;
+}
+#today {
+    padding: 1rem;
+    background-color: deepskyblue;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    grid-column: 1 / span 2;
+    border: 1px solid midnightblue;
+}
+.goals {
+    display: flex;
+}
+.goal {
+    background: mintcream;
+    padding: 0.25rem 0.5rem;
+    border-radius: 25px;
+    border: 1px solid maroon;
+    margin-right: 1rem;
+}
+.status {
+    margin-left: 0.5rem;
+}
+.section-box {
+    border: 1px solid midnightblue;
+    display: inline-block;
+    padding: 1rem;
+    background: deepskyblue;
+    border-radius: 10px;
+}
