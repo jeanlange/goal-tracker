@@ -1,0 +1,2 @@
+### What is?
+This is a project to help an 8-year old remember to read and eat vegetables every day, and to remind him not to spend too much time on the computer. He thought he could do it better with a tracker.
