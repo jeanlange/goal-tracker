@@ -23,15 +23,29 @@ h2 {
     grid-column: 1 / span 2;
     border: 1px solid midnightblue;
 }
-.goals {
+.goal-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.goal-container h3 {
+    text-align: center;
+    border-bottom: 1px solid midnightblue;
+    margin-bottom: 0;
+}
+.goal-container h3:first-of-type, .goal-container div:first-of-type {
+    border-right: 1px solid midnightblue;
+}
+.stickies {
     display: flex;
 }
 .goal {
-    background: mintcream;
-    padding: 0.25rem 0.5rem;
-    border-radius: 25px;
-    border: 1px solid maroon;
-    margin-right: 1rem;
+    display: inline-block;
+    background: greenyellow;
+    padding: 1rem;
+    width: 6rem;
+    height: 6rem;
+    margin: 0.5rem;
+    border: 1px solid midnightblue;
 }
 .status {
     margin-left: 0.5rem;
