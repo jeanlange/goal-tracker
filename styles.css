@@ -57,3 +57,9 @@ h2 {
     background: deepskyblue;
     border-radius: 10px;
 }
+.trackable div {
+    margin-top: 1rem;
+}
+label {
+    display: block;
+}
